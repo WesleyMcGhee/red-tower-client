@@ -1,0 +1,31 @@
+.form-con {
+  padding: 20px 0;
+  border-radius: 10px;
+  border: 1px solid #242424;
+  width: 20vw;
+}
+
+.input-full {
+  border-radius: 0;
+  border: 1px solid #242424;
+  width: 80%;
+  text-align: center;
+  height: 4vh;
+  margin: 0.5vh 2vw;
+}
+
+.input-btn {
+  border-radius: 0;
+  border: 1px solid #242424;
+  background-color: #424242;
+  color: white;
+  height: 4vh;
+  width: 80%;
+  margin: 0.5vh 2vw;
+}
+
+.input-btn:hover {
+  background-color: #242424;
+  transition: 0.2s ease;
+  cursor: pointer;
+}

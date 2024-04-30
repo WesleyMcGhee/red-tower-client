@@ -33,7 +33,7 @@ function SignupInputs() {
   };
 
   return (
-    <div>
+    <div className="form-con">
       <form onSubmit={submitHandler}>
         <input
           type="email"
@@ -92,7 +92,7 @@ function LoginInputs() {
   };
 
   return (
-    <div>
+    <div className="form-con">
       <form onSubmit={submitHandler}>
         <input
           type="text"
