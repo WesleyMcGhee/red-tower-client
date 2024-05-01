@@ -11,7 +11,7 @@ function AuthInput({ type }: IAuthInputProps) {
   return (
     <div className="auth-name">
       <h1>{type === "login" ? "Login" : "Sign Up"}</h1>
-      {type === "login" ? <SignupInputs /> : <LoginInputs />}
+      {type === "login" ? <LoginInputs /> : <SignupInputs />}
     </div>
   );
 }
@@ -33,7 +33,7 @@ function SignupInputs() {
   };
 
   return (
-    <div>
+    <div className="form-con">
       <form onSubmit={submitHandler}>
         <input
           type="email"
@@ -92,7 +92,7 @@ function LoginInputs() {
   };
 
   return (
-    <div>
+    <div className="form-con">
       <form onSubmit={submitHandler}>
         <input
           type="text"
