@@ -6,8 +6,9 @@ export default function Login() {
   return (
     <div>
       <Header />
-      <h1>Login</h1>
-      <AuthInput type="login" />
+      <div className="auth-con" style={{ marginTop: "30vh" }}>
+        <AuthInput type="login" />
+      </div>
     </div>
   );
 }
